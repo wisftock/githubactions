@@ -1,14 +1,34 @@
 {
   "name": "pruebasgithub",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "author": "wisftock",
+  "main": "dist/index.js",
+  "release": {
+    "branches": [
+      "+([0-9])?(.{+([0-9]),x}).x",
+      "master",
+      {
+        "name": "beta",
+        "prerelease": true
+      },
+      {
+        "name": "alpha",
+        "prerelease": true
+      }
+    ]
+  },
   "scripts": {
     "start": "vite",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
