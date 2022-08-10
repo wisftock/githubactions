@@ -23,13 +23,13 @@ jobs:
         run: echo Hello, world!
 
       - name: Install dependencies
-        uses: yarn install
+        run: yarn install
 
       - name: build
-        uses: yarn build
+        run: yarn build
 
       - name: Deploy to Heroku
-        uses: akhileshns/heroku-deploy@v3.12.12
+      - uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{ secrets.HEROKU_API_TOKEN }}
           heroku_app_name: ${{ secrets.HEROKU_APP }}
