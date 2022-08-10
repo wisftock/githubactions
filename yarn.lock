@@ -1169,6 +1169,11 @@ convert-source-map@^1.7.0:
   dependencies:
     safe-buffer "~5.1.1"
 
+copy-file@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/copy-file/-/copy-file-0.0.1.tgz#a772f8d7eb36c8371513ff80bbaade314129dd59"
+  integrity sha512-E2S/iYY3HIC3zevt3zGL/qrhlyhqgdGFEDIh3zyTTslMsI39Ut70yZvPnsYGUeqfhWCzY+X/WvqBnWPxsLtcww==
+
 core-util-is@~1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"

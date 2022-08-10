@@ -39,6 +39,7 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.0",
+    "copy-file": "^0.0.1",
     "rimraf": "^3.0.2",
     "semantic-release": "^19.0.3",
     "typescript": "^4.6.4",
