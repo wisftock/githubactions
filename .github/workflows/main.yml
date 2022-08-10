@@ -12,6 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # este comando es para evitar los buils redundantes
       - name: Cancel previous redundant builds
         uses: styfle/cancel-workflow-action@0.10.0
         with:
