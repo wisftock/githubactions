@@ -12,7 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
+        # trayendo el ultimo commit
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@1
+        with:
+          node-version: 16.16
       # Runs a single command using the runners shell
-      - name: Echo the message
+      - name: First message
         run: echo Hello, world!
+
+      - name: Install dependencies
+        run: npm install
