@@ -23,4 +23,7 @@ jobs:
         run: echo Hello, world!
 
       - name: Install dependencies
-        run: npm install
+        run: yarn install
+
+      - name: build
+        run: yarn build
