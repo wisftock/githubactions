@@ -15,7 +15,7 @@ jobs:
         # trayendo el ultimo commit
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@2
+      - uses: actions/setup-node@3
         with:
           node-version: 16.16
       # Runs a single command using the runners shell
